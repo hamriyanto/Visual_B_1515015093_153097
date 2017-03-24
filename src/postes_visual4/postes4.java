@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package postes_visual04;
+package postes_visual4;
 
 
 public class postes4 extends javax.swing.JFrame {
