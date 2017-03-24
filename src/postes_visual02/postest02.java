@@ -112,6 +112,11 @@ public class postest02 extends javax.swing.JFrame {
         Vperempuan.setText("Perempuan");
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Januari", "February", "Maret", "April", "Mei ", "Juni", "July", " Agustus", "September ", "Oktober", "November", "Desember" }));
+        jComboBox4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox4ActionPerformed(evt);
+            }
+        });
 
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000" }));
 
@@ -385,6 +390,10 @@ public class postest02 extends javax.swing.JFrame {
       vhasil.setText(""
       );
     }//GEN-LAST:event_VresetActionPerformed
+
+    private void jComboBox4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox4ActionPerformed
 
     /**
      * @param args the command line arguments

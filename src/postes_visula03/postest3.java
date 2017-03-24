@@ -473,7 +473,7 @@ public class postest3 extends javax.swing.JFrame {
         hemail.setText(email);
         
         panelhome.setVisible(false);
-        panelregis.setVisible(false);
+        panelregis.setVispanelhome.setVisibible(false);
         panelhasil.setVisible(true);
     }//GEN-LAST:event_registrasiActionPerformed
 
