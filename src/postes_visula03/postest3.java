@@ -29,8 +29,6 @@ public class postest3 extends javax.swing.JFrame {
 
         jButton1 = new javax.swing.JButton();
         center = new javax.swing.JPanel();
-        panelhome = new javax.swing.JPanel();
-        jLabel1 = new javax.swing.JLabel();
         panelhasil = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
@@ -66,6 +64,8 @@ public class postest3 extends javax.swing.JFrame {
         vtanggal = new javax.swing.JTextField();
         valamat = new javax.swing.JTextField();
         registrasi = new javax.swing.JButton();
+        panelhome = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
         atas = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
         bawah = new javax.swing.JPanel();
@@ -81,24 +81,6 @@ public class postest3 extends javax.swing.JFrame {
 
         center.setBackground(new java.awt.Color(255, 255, 255));
         center.setLayout(new java.awt.CardLayout());
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\7 Ultimate\\Desktop\\game-ghost_recon_online2.jpg")); // NOI18N
-
-        javax.swing.GroupLayout panelhomeLayout = new javax.swing.GroupLayout(panelhome);
-        panelhome.setLayout(panelhomeLayout);
-        panelhomeLayout.setHorizontalGroup(
-            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(panelhomeLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1)
-                .addContainerGap(30, Short.MAX_VALUE))
-        );
-        panelhomeLayout.setVerticalGroup(
-            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 351, Short.MAX_VALUE)
-        );
-
-        center.add(panelhome, "card2");
 
         panelhasil.setPreferredSize(new java.awt.Dimension(851, 315));
 
@@ -337,11 +319,26 @@ public class postest3 extends javax.swing.JFrame {
 
         center.add(panelregis, "card2");
 
+        javax.swing.GroupLayout panelhomeLayout = new javax.swing.GroupLayout(panelhome);
+        panelhome.setLayout(panelhomeLayout);
+        panelhomeLayout.setHorizontalGroup(
+            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelhomeLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(30, Short.MAX_VALUE))
+        );
+        panelhomeLayout.setVerticalGroup(
+            panelhomeLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 351, Short.MAX_VALUE)
+        );
+
+        center.add(panelhome, "card2");
+
         getContentPane().add(center, java.awt.BorderLayout.CENTER);
 
         atas.setBackground(new java.awt.Color(0, 0, 0));
 
-        jLabel16.setIcon(new javax.swing.ImageIcon("C:\\Users\\7 Ultimate\\Desktop\\download.jpg")); // NOI18N
         jLabel16.setText(" ");
 
         javax.swing.GroupLayout atasLayout = new javax.swing.GroupLayout(atas);
